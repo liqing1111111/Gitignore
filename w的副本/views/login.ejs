@@ -19,20 +19,21 @@
     </div>
     <div class="lins"></div>
     <div class="form-box">
-        <form method="get" name="" action="login1">
+        <form method="post" name="" action="loginSuccess">
             <div class="input-form">
                 <span><img src="/images/icon-cellphone.png"></span>
-                <input class="inputstyle" type="text"  placeholder="请输入手机号">
+                <input class="inputstyle" type="text" name = 'username'
+                      placeholder="请输入手机号">
             </div>
             <div class="lins"></div>
             <div class="input-form">
                 <span><img src="/images/icon－password.png"></span>
-                <input class="inputstyle" type="password"  placeholder="请输入密码">
+                <input class="inputstyle" type="password" name = 'password'
+                      placeholder="请输入密码">
             </div>
             <div class="lins"></div>
             <div class="checkbox">
-
-                <span class="aui-pull-right">忘记密码？</span>
+                <a class="aui-pull-right" href="update">忘记密码？</a>
             </div>
             <div class="lins"></div>
             <div class="sub">
@@ -40,8 +41,8 @@
             </div>
 
 
-
         </form>
     </div>
-</body>
+</div>
+ </body>
 </html>
